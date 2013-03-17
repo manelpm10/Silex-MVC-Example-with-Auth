@@ -1,0 +1,44 @@
+{
+	"name"			: "Silex MVC Example with Auth",
+	"type"			: "application",
+	"description"	: "Silex MVC Example with Auth using MySQL database.",
+    "keywords"		: ["framework"],
+    "license"		: "MIT",
+	"authors"		: [
+		{
+			"name"		: "Manel Pérez",
+			"email"		: "manelpm10@gmail.com",
+			"homepage"	: "https://github.com/manelpm10"
+		}
+	],
+	"require": {
+		"php"					: ">=5.3.3",
+		"doctrine/dbal"			: "~2.3",
+		"kriswallsmith/assetic"	: "~1.0.0",
+		"leafo/lessphp"			: "dev-master",
+		"mheap/silex-assetic"	: "dev-master@dev",
+		"monolog/monolog"		: "~1.0",
+		"silex/silex"			: "1.0.*@dev",
+		"symfony/config"		: "~2.2",
+		"symfony/console"		: "~2.2",
+		"symfony/form"			: "~2.2",
+		"symfony/security"		: "~2.2",
+		"symfony/translation"	: "~2.2",
+		"symfony/twig-bridge"	: "~2.2",
+		"symfony/validator"		: "~2.2",
+		"symfony/yaml"			: "~2.2",
+		"twig/twig"				: "~1.10",
+		"twitter/bootstrap"		: "2.3.1"
+	},
+	"require-dev": {
+		"symfony/browser-kit"	: "~2.2",
+		"symfony/css-selector"	: "~2.2",
+		"symfony/dom-crawler"	: "~2.2"
+	},
+	"autoload":	{
+		"psr-0": {
+			"Controller"		: "src/",
+			"Model"				: "src/"
+		}
+	}
+}

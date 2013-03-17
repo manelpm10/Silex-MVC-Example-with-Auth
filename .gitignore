@@ -1,0 +1,7 @@
+cache/*
+log/*
+vendor/*
+public/assets/*
+nbproject/*
+composer.phar
+composer.lock
